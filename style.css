@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.detail label {
+    margin-top: 20px;
+}
+
+.detail input {
+    margin-top: 5px;
+}
+
+.forget {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.head {
+    margin-left: 20px;
+}
+
+.boxy {
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.border {
+    margin-top: 30px;
+    margin-left: 63px;
+    font-size: small;
+}
+
+.border a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    height: 56vh;
+    width: 23vw;
+    /* background-color: gray; */
+    margin-top: 10vh;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 50px 5px #8888883c;
+}
+
+#log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    /* align-content: initial; */
+}
+
+.forpas {
+    margin-left: 100px;
+}
+
+.signin {
+    display: flex;
+    background-color: black;
+    /* border-color: gray; */
+    color: white;
+    border-radius: 7px;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    font-size: large;
+}
+
+.google {
+    margin-top: 35px;
+    position: absolute;
+    margin-left: -100px;
+    width: 35px;
+    height: 35px;
+}
+
+.goo {
+    background-color: white;
+    color: black;
+    border-color: rgb(27, 26, 26);
+    border-style: none;
+    border-radius: 7px;
+    width: 350px;
+    height: 50px;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.511);
+}
